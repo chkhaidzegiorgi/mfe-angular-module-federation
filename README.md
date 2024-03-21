@@ -1,2 +1,1 @@
-# Starterkit for Trying out @angular-architects/module-federation
-
+Angular 17 with module federation and new angular-builder

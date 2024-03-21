@@ -1,9 +1,11 @@
 {
-  "name": "mf-demo",
+  "name": "mfe-demo",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "start:shell": "ng serve shell -o",
+    "start:mfe": "ng serve mfe1 -o",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -24,7 +26,7 @@
     "zone.js": "~0.14.4"
   },
   "devDependencies": {
-    "@angular-architects/native-federation": "^16.1.0",
+    "@angular-architects/native-federation": "^17.1.7",
     "@angular-devkit/build-angular": "^17.3.0",
     "@angular/cli": "~17.3.0",
     "@angular/compiler-cli": "^17.3.0",
